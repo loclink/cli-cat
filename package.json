@@ -1,0 +1,22 @@
+{
+  "name": "cli-cat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cc": "index.js"
+  },
+  "keywords": [
+    "copy dir",
+    "copy file"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "fs-extra": "^10.1.0"
+  }
+}
