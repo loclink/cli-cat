@@ -52,7 +52,19 @@ cc copy ./testDir1 ./testDir2
 cc copy ./demo.js ./demo02.js
 ```
 
-_暂时只支持复制操作，未来会考虑更多_
+3. 删除文件夹:
+
+``` shell
+cc rm ./dist
+```
+
+4. 删除文件:
+
+``` shell
+cc rm ./demo.js
+```
+
+
 
 ## 应用场景:
 
